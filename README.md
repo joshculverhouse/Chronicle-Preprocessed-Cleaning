@@ -5,6 +5,10 @@ This script cleans smartphone app usage data preprocessed by the Chronicle/Metho
 
 GetMethodic/Chronicle: https://github.com/methodic-labs/chronicle-processing
 
+## To run
+- `Cleaning script.R`
+- User specifies input/output folders and timezone (tz)
+
 ## Steps for Cleaning Process:
 
 ### 1. Initial Setup
