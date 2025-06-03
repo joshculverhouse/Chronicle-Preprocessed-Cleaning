@@ -34,7 +34,6 @@ files_df <- bind_rows(lapply(files_list, read.csv))
 # 3. Initial Filtering and Datetime Parsing ----------------------------------
 
 df <- files_df %>%
-  mutate(participant_id = sub("^(\\d{3,4}).*$", "\\1", participant_id)) %>%
   
   arrange(participant_id, app_datetime_start) %>% 
   
